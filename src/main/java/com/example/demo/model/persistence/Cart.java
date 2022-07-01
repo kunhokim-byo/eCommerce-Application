@@ -94,4 +94,8 @@ public class Cart {
 		}
 		total = total.subtract(item.getPrice());
 	}
+
+	public Integer num_Items(){
+		return items.size();
+	}
 }
